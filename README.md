@@ -15,6 +15,10 @@ Create DataBase:
 ```python
 db.create_tables([Users])
 ```
+To use u need to import REF_DB
+```python
+import REF_DB
+```
 
 
 ### Examples:
