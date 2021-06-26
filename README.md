@@ -17,7 +17,7 @@ db.create_tables([Users])
 ```
 To use u need to import REF_DB
 ```python
-import REF_DB
+from REF_DB import *
 ```
 
 
@@ -25,8 +25,6 @@ import REF_DB
 
 ```python
 #part of real code 
-def write_msg(user_id, message):
-    vk.method('messages.send', {'user_id': user_id, 'message': message})
 
 def get_my_refs(message):
     count = Users.get_ref_count(message.chat.id)
@@ -45,6 +43,5 @@ def start(message):
             Users.increase_ref_count(splited[1])
     bot.reply_to(message, text=text_helloText)
 ```
-###Contact me:
+### Contact me:
 Telegram - @id
-Vk - @id
