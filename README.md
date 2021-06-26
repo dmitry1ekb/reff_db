@@ -1,12 +1,21 @@
-# reff_db
-## module for working with refferal system database
+# REDB
+### REDB - module for working with your refferal system database
+###Desription
+REDB - module for working with your refferal system database. You can create database and edit it soon 
 
+### Requirements
+You need to use python >=3.7 
 
-
-
-## Example:
+### Using
+Create DataBase:
 ```python
 db.create_tables([Users])
+```
+
+### Examples:
+
+```python
+
 
 def write_msg(user_id, message):
     vk.method('messages.send', {'user_id': user_id, 'message': message})
