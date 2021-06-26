@@ -45,6 +45,6 @@ def start(message):
             Users.increase_ref_count(splited[1])
     bot.reply_to(message, text=text_helloText)
 ```
-Contact me:
+###Contact me:
 Telegram - @id
 Vk - @id
