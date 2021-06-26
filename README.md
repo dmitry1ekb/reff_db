@@ -4,7 +4,10 @@
 REDB - module for working with your refferal system database. You can create database and edit it soon 
 
 ### Requirements
-You need to use python >=3.7 
+
+You need to use python >=3.7
+
+
 
 ### Using:
 
@@ -38,3 +41,6 @@ def start(message):
             Users.increase_ref_count(splited[1])
     bot.reply_to(message, text=text_helloText)
 ```
+Contact me:
+Telegram - @id
+Vk - @id
